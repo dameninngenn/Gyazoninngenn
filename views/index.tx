@@ -1,0 +1,5 @@
+: cascade base
+: around content -> {
+<img src="<: $c.req.uri_for('/img/ippei.jpg') :>" width="480" />
+: }
+
